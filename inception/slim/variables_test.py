@@ -19,8 +19,8 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from inception.slim import scopes
-from inception.slim import variables
+from slim import scopes
+from slim import variables
 
 
 class VariablesTest(tf.test.TestCase):

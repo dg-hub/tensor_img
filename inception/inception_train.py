@@ -27,9 +27,9 @@ import time
 import numpy as np
 import tensorflow as tf
 
-from inception import image_processing
-from inception import inception_model as inception
-from inception.slim import slim
+import image_processing
+import inception_model as inception
+from slim import slim
 
 FLAGS = tf.app.flags.FLAGS
 

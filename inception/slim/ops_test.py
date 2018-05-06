@@ -21,9 +21,9 @@ from __future__ import print_function
 import numpy as np
 import tensorflow as tf
 
-from inception.slim import ops
-from inception.slim import scopes
-from inception.slim import variables
+from slim import ops
+from slim import scopes
+from slim import variables
 
 
 class ConvTest(tf.test.TestCase):
